@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="cs.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+
+</head>
+<body>
+  <div class="search-box">
+    <input class="searc-el" type="text" placeholder="Search city..." />
+    <button onclick="meFetc()">    
+      
+      <span class="material-symbols-outlined">
+        search
+    </span>   </button>
+  </div>
+
+  <div class="weather">
+    <h2 class="cityName">Search for a city...</h2>
+<div class="weather-icon"></div>
+    <div class="main-el"></div>
+    <h1 class="temperatureEl"></h1>
+
+
+
+    <div class="details">
+      <div class="card" id="car-humi"></div>
+      <div class="card" id="car-wind"></div>
+      <div class="card" id="car-feel"></div>
+      <div class="card" id="car-visi"></div>
+    </div>
+
+  
+  </div>
+
+  <script src="in.js"></script>
+</body>
+</html>
